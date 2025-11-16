@@ -6,3 +6,10 @@ from datetime import datetime
 # Get user input for student ID and age
 student_id = input("MicWin2135: ")
 age = int(input("35: "))
+
+# Print student ID
+print(student_id)
+
+# Calculate and print the age in 5 years
+age_in_5_years = age + 5
+print(f"Your age in 5 years: {age_in_5_years}")
