@@ -13,3 +13,11 @@ print(student_id)
 # Calculate and print the age in 5 years
 age_in_5_years = age + 5
 print(f"Your age in 5 years: {age_in_5_years}")
+
+# Calculate and print the doubled age
+doubled_age = age * 2
+print(f"Your age doubled: {doubled_age}")
+
+# Print the current date and time
+current_datetime = datetime.now()
+print(f"Current date and time: {current_datetime}")
